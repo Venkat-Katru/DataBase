@@ -1,0 +1,57 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title> 
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<div class="main">
+<div class="reg">
+
+<h1>Add New Employee</h1>
+<form action="SaveServlet" method="post" id="in">
+
+<label>ID:</label>
+<br>
+<input type="text" name="id" id="na1" placeholder="Enter your id"required><br> <br>
+
+<label>NAME:</label>
+<br>
+<input type="text" name="name" id="na2" placeholder="Enter your name"required><br> <br> 
+
+
+<label>EMAIL :</label>
+<br>
+<input type="email" name="email" id="na3" placeholder="Enter your Email"required> <br> <br>
+
+
+
+<label>DEPARTMENT :</label>&nbsp; &nbsp;
+<select name="department" style="width:150px" id="sec" required>  
+    <option>select</option> 
+    <option>HR</option>  
+    <option>IT</option>  
+    <option>SALES</option>  
+    <option>BUSINESS</option>  
+    <option>MARKETING</option>  
+    <option>OTHER</option>  
+    </select> <br> <br>
+<label>SALARY:</label>
+<br>
+<input type="salary" name="salary" id="na4" placeholder="Enter your salary" required> <br> <br>
+<button type="submit"value="Save Employee" id="sub" >SUBMIT</button>
+
+
+<button type="reset" id="res">RESET</button>
+
+<a href="View.jsp"><button type="button" id="btnl">VIEW EMPLOYEE TABLE  </button></a>
+
+</form>
+</div>
+
+</div>
+
+
+</body>
+</html>
